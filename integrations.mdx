@@ -13,29 +13,28 @@ Aptible offers a robust selection of fully [Managed Databases](/docs/databases) 
 
 <CardGroup cols={2}>
   <Card title="CouchDB" icon="database" iconType="thin">
-  `Database`\
+  `Database`
   </Card>
   <Card title="Elasticsearch" icon="database" iconType="thin">
-  `Database`\
+  `Database`
   </Card>
   <Card title="InfluxDB" icon="database" iconType="thin">
-  `Database`\
+  `Database`
   </Card>
   <Card title="MongoDB" icon="database" iconType="thin">
-  `Database`\
+  `Database`
   </Card>
   <Card title="PostgreSQL" icon="database" iconType="thin">
-  `Database`\
-
+  `Database`
   </Card>
   <Card title="RabbitMQ" icon="database" iconType="thin">
-  `Database `\
+  `Database `
   </Card>
   <Card title="Redis" icon="database" iconType="thin">
-  `Database` \
+  `Database`
   </Card>
   <Card title="SFTP" icon="database" iconType="thin">
-  `Database` \
+  `Database`
 
   </Card>
 </CardGroup>
@@ -57,6 +56,13 @@ Integrate Aptible with popular log analysis tools, to gain insights into your ap
   `Integration`\
 Send Aptible logs metrics to Datadog.
   </Card>
+   <Card title="Custom - HTTPS" icon="globe" iconType="thin">
+  `Custom Integration`
+Send Aptible logs to any destination of your choice via HTTPS
+  </Card>
+   <Card title="Custom - Syslog" icon="globe" iconType="thin">
+   `Integration` `Custom`
+  </Card>
   <Card title="Elasticsearch" icon="database" iconType="thin">
   `Database` `Integration`\
 Send logs to an Elasticsearch database in Aptible.
@@ -64,10 +70,6 @@ Send logs to an Elasticsearch database in Aptible.
   <Card title="Fivetran" icon="file-import" iconType="thin">
   `Compatible Tool`\
 Send Aptible database logs to Fivetran.
-  </Card>
-  <Card title="HTTPS" icon="globe" iconType="thin">
-  `Custom Integration`
-Send Aptible logs to any destination of your choice via HTTPS
   </Card>
   <Card title="Logentries" icon="file-import" iconType="thin">
   `Integration`
@@ -84,24 +86,38 @@ Send Aptible logs to any destination of your choice via HTTPS
   <Card title="Sumo Logic" icon="file-import" iconType="thin">
   `Integration`
   </Card>
-  <Card title="Syslog" icon="globe" iconType="thin">
-   `Integration` `Custom`
-  </Card>
+
 </CardGroup>
 
-### Metric Drains
+### Monitoring
 
-Metric Drains enable you to export application metrics to external monitoring and analytics services. This integration enhances your ability to monitor and optimize application performance. Aptible supports Datadog and InfluxDB metric drains. [Learn more →](/docs/databases)
+Export application metrics to external monitoring and analytics services to monitor and optimize application performance.
+<CardGroup cols={2}>
+<Card title="Datadog - APM" icon="file-import" iconType="thin" href="">
+`Tool`
+</Card>
+<Card title="Datadog - Container Monitoring" icon="file-import" iconType="thin" href="">
+`Integration`
+</Card>
+<Card title="Terraform" icon="code-compare" iconType="thin" href="">
+`Tool`
+</Card>
+</CardGroup>
+
 
 # Developer tools
-
+<CardGroup cols={2}>
 <Card title="Aptible CLI" icon="terminal" iconType="thin" href="">
 `Tool`
 </Card>
-
+<Card title="Terraform" icon="code-compare" iconType="thin" href="">
+`Tool`
+</Card>
+</CardGroup>
+### CI/CD Integrations
 <CardGroup cols={2}>
-  <Card title="CI/CD" icon="code-merge" iconType="thin">
-  `Integration`  `Custom`\
+  <Card title="Custom CI/CD" icon="code-merge" iconType="thin">
+  `Tool` `Custom`\
   Generic Highlight
   </Card>
   <Card title="Circle CI" icon="code-merge" iconType="thin">
@@ -112,14 +128,10 @@ Metric Drains enable you to export application metrics to external monitoring an
   `Tool`\
   Deploy to Aptible using GitHub Actions.
   </Card>
-<Card title="Terraform" icon="code-compare" iconType="thin">
-  `Tool`\
-  Deploy to Aptible using GitHub Actions.
-  </Card>
+
 
 </CardGroup>
 
-### CI/CD Integrations
 
 Aptible integrates seamlessly popular Continuous Integration/Continuous Deployment (CI/CD) tools. Automate your application deployment pipeline for faster and more reliable releases. [Learn more →](/docs/continuous-integration-provider-deployment)
 
@@ -129,10 +141,15 @@ Aptible supports Terraform, a powerful Infrastructure as Code (IaC) tool. Use Te
 
 # Network
 <CardGroup cols={2}>
+ <Card title="Twingate" icon="lock" iconType="thin">
+  `Integration`
+  </Card>
   <Card title="VPNs" icon="chart-network" iconType="thin">
+  `Integration`\
   Site-to-site Virtual Private Networks (VPNs), providing secure and private network connections between your infrastructure and external resources
   </Card>
   <Card title="VPC Peering" icon="chart-network" iconType="thin">
+  `Integration`\
   Secure communication between different Virtual Private Clouds (VPCs), connecting isolated network environments and extending your infrastructure.
   </Card>
 
@@ -140,12 +157,25 @@ Aptible supports Terraform, a powerful Infrastructure as Code (IaC) tool. Use Te
 
 # Security
 <CardGroup cols={2}>
-  <Card title="Twingate" icon="lock" iconType="thin">
+  <Card title="Google Workplace SAML" icon="lock" iconType="thin">
+   `Integration`
+
+   <Info>Growth/Scale/Enterprise Plan required</Info>
+
+Set up SSO for your Aptible Account with Google Workplace SAML
+
   </Card>
-  <Card title="SAML" icon="lock" iconType="thin">
+    <Card title="Okta SAML" icon="lock" iconType="thin">
+     `Integration`
+
+     <Info>Growth/Scale/Enterprise Plan required</Info>
+
+     Set up SSO for your Aptible Account with Google Workplace SAML
+
   </Card>
   <Card title="Sym" icon="lock" iconType="thin">
-  </Card>
+   `Integration`
+     </Card>
 
 </CardGroup> 
 
