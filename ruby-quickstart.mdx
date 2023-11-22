@@ -22,55 +22,51 @@ description: "Deploy a **Ruby on Rails** starter template"
 
 This guide will walk you through the process of launching the [Rails Getting Started example](https://guides.rubyonrails.org/v4.2.7/getting_started.html) on Aptible. Deploy a starter template Node.js app using the Express framework on Aptible
 
-# Quick Links
-
-## Deploy Template
-
-<Warning> Prerequisite: Ensure you have [Git](https://git-scm.com/downloads) installed.</Warning>
-
-The tool will guide you through the following:
-
-#### Step 01: Deploy with Git Push
+# Get started
 
 <Tabs>
-  <Tab title="Deploy Tool">
-    Using the [Deploy](https://app.aptible.com/create) tool in the Aptible Dashboard, you can deploy the **Ruby on Rails Template**. 
+  <Tab title="Deploy via Template">
+  Using the [Deploy](https://app.aptible.com/create) tool in the Aptible Dashboard, you can deploy the **Ruby on Rails Template.**
+  
+  <AccordionGroup>
+  <Accordion title="Deploy with Git Push">
+  Select Deploy with Git Push
+  </Accordion>
+  <Accordion title="Add an SSH key">
+  If you have not done so already, you will be prompted to set up an [SSH key](https://www.aptible.com/docs/public-key-authentication#ssh-keys).
+  </Accordion>
+  <Accordion title="Configure Environment">
+  Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
+  </Accordion>
+<Accordion title="Prepare the template">
+Select `Ruby on Rails Template` for deployment, and follow command-line instructions.
+</Accordion>
+<Accordion title="Fill environment variables">
+Aptible will automatically fill this template's required databases, services, and app's configuration with environment variable keys for you to fill with values. Once complete, save and deploy the code!
+</Accordion>
+<Accordion title="View logs in real time">
+</Accordion>
+<Accordion title="Expose your app to the internet">
+Now that your code is deployed, it's time to expose your app to the internet. Select the service that needs an [endpoint](https://www.aptible.com/docs/endpoints), and Aptible will automatically provision a managed endpoint.
+</Accordion>
+<Accordion title="View your deployed app 🎉"></Accordion>
+</AccordionGroup>
+
+
+
   </Tab>
   <Tab title="CLI">
-   <Warning>Prerequisites: Install the [Aptible CLI](/docs/cli) </Warning>
-
+   <Accordion title="Install the Aptible CLI">
+Install the [Aptible CLI](/docs/cli)
     ```
-
+brew install --cask aptible
 ```
-
-
+</Accordion>
+<Accordion title=""></Accordion>
 
   </Tab>
 </Tabs>
 
-#### Step 02: Add an SSH key![](</tina/Add your SSH key.png>)
-
-If you have not done so already, you will be prompted to set up an [SSH key](https://www.aptible.com/docs/public-key-authentication#ssh-keys).
-
-#### Step 03: Environment Setup![](</tina/Name your environment.png>)
-
-Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
-
-#### **Step 04: Prepare the template**![](</tina/Rails Starter Template.png>)
-
-Select `Ruby on Rails Template` for deployment, and follow command-line instructions.
-
-#### Step 05: Fill environment variables **and deploy!**![](</tina/Save and deploy code.png>)
-
-Aptible will automatically fill this template's required databases, services, and app's configuration with environment variable keys for you to fill with values. Once complete, save and deploy the code!
-
-#### **Step 06: View logs in real time**![](</tina/Deploying your code 2 (1).png>)
-
-#### **Step 07: Expose your app to the internet**![](</tina/Deployed your code 2.png>)
-
-Now that your code is deployed, it's time to expose your app to the internet. Select the service that needs an [endpoint](https://www.aptible.com/docs/endpoints), and Aptible will automatically provision a managed endpoint.
-
-#### Step 08: View your deployed app 🎉![](</tina/Deployed - Rails Template.png>)
 
 # Next steps
 
