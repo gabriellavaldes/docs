@@ -55,17 +55,23 @@ Now that your code is deployed, it's time to expose your app to the internet. Se
 
 
   </Tab>
-  <Tab title="CLI">
-   <Accordion title="Install the Aptible CLI">
 
+  <Tab title="Deploy via CLI">
+
+  <AccordionGroup>
+   <Accordion title="Install the Aptible CLI">
     ```
 brew install --cask aptible
 ```
 </Accordion>
-<Accordion title="Create an app">
-```  aptible apps:create HANDLE 
-</Accordion>
 
+<Accordion title="Create an app">
+```
+aptible apps:create HANDLE
+[environment=ENVIRONMENT]
+```
+</Accordion>
+</AccordionGroup>
   </Tab>
 </Tabs>
 
