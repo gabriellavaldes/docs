@@ -47,6 +47,16 @@
             "databases",
             "integrations"
         ]
+      },
+      {
+        "group": "Testing Nesting",
+        "pages": [
+          "Nested Header",
+          {
+                "group": "Nested Reference Pages",
+                "pages": ["apps"]
+            }
+        ]
       }
     ],
     "footerSocials":
