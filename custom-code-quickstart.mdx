@@ -29,45 +29,38 @@ Aptible supports many frameworks; you can deploy any code that meets the followi
 
 Using the Deploy Code tool in the Aptible Dashboard, you can deploy Custom Code. The tool will guide you through the following:
 
-#### Step 01: Deploy with Git push
-
-![](/images/1.png)
-
-#### Step 02: Add an SSH keys
-
-![](/images/2.png)
-
+<Steps>
+  <Step title="Deploy with Git push">
+    ![](/images/1.png)
+  </Step>
+  <Step title="Add an SSH key">
+    ![](/images/2.png)
 If you have not done so already, you will be prompted to set up an [SSH key](https://www.aptible.com/docs/public-key-authentication#ssh-keys).
+  </Step>
+  <Step title="Setup Environment">
+  ![](/images/3.png)
+  Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
 
-#### Step 03: Environment Setup
-
-![](/images/3.png)
-
-Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
-
-#### **Step 04: Push your code to aptible**
-
-![](/images/4.png)
-
-Select **Custom Code** deployment, and from your command-line interface, add Aptible’s Git Server and push your code to our scan branch using the commands in the Aptible Dashboard
-
-#### Step 05: Provision a database and configure your app 
-
+  </Step>
+  <Step title="Push your code to Aptible">
+  ![](/images/4.png)
+  Select **Custom Code** deployment, and from your command-line interface, add Aptible’s Git Server and push your code to our scan branch using the commands in the Aptible Dashboard
+  </Step>
+<Step title="Provision a database and configure your app">
 ![](/images/5.png)
 
 Optionally, provision a database, configure your app with [environment variables](docs/configuration#configuration-variables), or add additional [services](/docs/services) and commands.
-
-#### Step 06: Deploy your code and view logs
-
+</Step>
+<Step title="Deploy your code and view logs">
 ![](/images/6.png)
-
 Deploy your code and view [logs](/docs/logs) in real time
+</Step>
 
-#### **Step 07: Expose your app to the internet**
-
+<Step title="Expose your app to the internet">
 ![](/images/7.png)
-
 Now that your code is deployed, it's time to expose your app to the internet. Select the service that needs an [endpoint](https://www.aptible.com/docs/endpoints), and Aptible will automatically provision a managed endpoint.
+</Step>
+</Steps>
 
 # Next steps
 
