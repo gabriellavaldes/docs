@@ -42,7 +42,7 @@
         "group": "Showcase",
         "pages": [
             "introduction",
-            "apps",
+            "intro-to-aptible",
             "custom-code-quickstart",
             "databases",
             "integrations",
