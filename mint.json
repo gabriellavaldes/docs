@@ -24,7 +24,7 @@
       {
         "name": "Support",
         "icon": "headset",
-        "url": "https://aptible.zendesk.com/hc/en-us/requests/new"
+        "url": "https://app.aptible.com/support"
       },
       {
         "name": "Security & Compliance",
@@ -42,7 +42,7 @@
         "group": "Showcase",
         "pages": [
             "introduction",
-            "intro-to-aptible",
+            "intro-to-aptible.mdx",
             "custom-code-quickstart",
             "integrations",
             {
