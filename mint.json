@@ -42,13 +42,15 @@
         "group": "Showcase",
         "pages": [
             "introduction",
-            "apps",
+            "intro-to-aptible",
             "custom-code-quickstart",
-            "databases",
             "integrations",
             {
-              "group": "ABC",
-              "pages": ["apps"]
+              "group": "Testing docs",
+              "pages": [
+                  "apps",
+                  "databases",
+                
             }
         ]
       }
