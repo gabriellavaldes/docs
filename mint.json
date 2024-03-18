@@ -44,11 +44,14 @@
             "introduction",
             "intro-to-aptible",
             "custom-code-quickstart",
-            "databases",
             "integrations",
             {
               "group": "ABC",
-              "pages": ["apps"]
+              "pages": [
+                  "apps",
+                  "databases"
+              ]
+
             }
         ]
       }
