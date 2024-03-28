@@ -41,9 +41,10 @@
       {
         "group": "Showcase",
         "pages": [
-            "introduction",
+            "home",
             "intro-to-aptible",
             "custom-code-quickstart",
+            "ruby-quickstart",
             "integrations",
             {
               "group": "ABC",
