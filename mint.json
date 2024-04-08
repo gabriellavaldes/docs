@@ -31,7 +31,10 @@
         "icon": "lock",
         "url": "https:/trust.aptible.com/"
       },
-     {} 
+     { "name":"Changelog",
+     "icon": "newspaper",
+      "url": "https://www.aptible.com/changelog"
+     }
     ],
     "navigation": [
       {
