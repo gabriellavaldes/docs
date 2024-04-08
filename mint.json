@@ -45,6 +45,7 @@
             "custom-code-quickstart",
             "ruby-quickstart",
             "integrations",
+            "dashboard"
       { "group": "ABC",
         "pages": [
             "apps",
