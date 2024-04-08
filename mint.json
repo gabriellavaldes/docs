@@ -24,18 +24,13 @@
       {
         "name": "Support",
         "icon": "headset",
-        "url": "https://aptible.zendesk.com/hc/en-us/requests/new"
+        "url": "https://app.aptible.com/support"
       },
       {
-        "name": "Security & Compliance",
+        "name": "Trust Center",
         "icon": "lock",
-        "url": "https://www.aptible.com/security-compliance"
+        "url": "https:/trust.aptible.com/"
       },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://www.aptible.com/blog"
-      }
     ],
     "navigation": [
       {
