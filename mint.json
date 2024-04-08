@@ -29,7 +29,7 @@
       {
         "name": "Trust Center",
         "icon": "lock",
-        "url": "https:/trust.aptible.com/"
+        "url": "https:/trust.aptible.com"
       },
      { "name":"Changelog",
      "icon": "newspaper",
