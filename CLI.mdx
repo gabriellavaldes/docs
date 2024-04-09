@@ -1,0 +1,39 @@
+---
+title: 'Aptible CLI'
+description: 'Description of your new file.'
+---
+
+# Overview
+
+The Aptible CLI is a tool to help you manage your Aptible resources directly from the command line. You can use the Aptible CLI to do things like:
+
+Create, modify, and delete Aptible resources
+Deploy, restart, and scale Apps and Databases
+View real-time logs
+For an overview of what features the CLI supports, see the Feature Support Matrix.
+
+# Install the Aptible CLI
+
+import CLISnippet from '/snippets/CLI-snippet.mdx';
+
+<CLISnippet />
+
+# Test the CLI
+Take the CLI for a spin with these commands or [browse through all available commands.](https://www.aptible.com/docs/commands)
+<CodeGroup>
+```python Login to the CLI
+aptible login
+```
+
+```python View all commands
+aptible help
+```
+
+```python Create a new app
+aptible apps:create HANDLE --environment=ENVIRONMENT
+```
+```python List all databases
+aptible db:list
+```
+
+</CodeGroup>
