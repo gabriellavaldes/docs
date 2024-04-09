@@ -46,6 +46,7 @@
             "ruby-quickstart",
             "integrations",
             "dashboard",
+            "CLI",
       { "group": "ABC",
         "pages": [
             "apps",
