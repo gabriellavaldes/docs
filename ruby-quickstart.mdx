@@ -19,53 +19,42 @@ This guide will walk you through the process of launching the [Rails Getting Sta
 
 # Get started
 
+## Deploy via the Aptible Dashboard
+
 <Tabs>
-  <Tab title="Deploy via Template">
-  Using the [Deploy](https://app.aptible.com/create) tool in the Aptible Dashboard, you can deploy the **Ruby on Rails Template.**
-  
+  <Tab title="Deploy from GitHub">
   <AccordionGroup>
-  <Accordion title="Deploy with Git Push">
-  Select Deploy with Git Push
-  </Accordion>
-  <Accordion title="Add an SSH key">
-  If you have not done so already, you will be prompted to set up an [SSH key](https://www.aptible.com/docs/public-key-authentication#ssh-keys).
-  </Accordion>
-  <Accordion title="Configure Environment">
-  Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
-  </Accordion>
-<Accordion title="Prepare the template">
-Select `Ruby on Rails Template` for deployment, and follow command-line instructions.
-</Accordion>
-<Accordion title="Fill environment variables">
-Aptible will automatically fill this template's required databases, services, and app's configuration with environment variable keys for you to fill with values. Once complete, save and deploy the code!
-</Accordion>
-<Accordion title="View logs in real time">
-</Accordion>
-<Accordion title="Expose your app to the internet">
-Now that your code is deployed, it's time to expose your app to the internet. Select the service that needs an [endpoint](https://www.aptible.com/docs/endpoints), and Aptible will automatically provision a managed endpoint.
-</Accordion>
-<Accordion title="View your deployed app 🎉"></Accordion>
-</AccordionGroup>
-
-
-
+    <Accordion title="Deploy with GitPush">
+    </Accordion>
+    <Accordion title="Add your SSH Key">
+      If you have not done so already, you will be prompted to set up an [SSH key](https://www.aptible.com/docs/public-key-authentication#ssh-keys).
+    </Accordion>
+    <Accordion title="Configure Environment">
+    Select your [stack](https://www.aptible.com/docs/stacks) to deploy your resources. This will determine what region your resources are deployed to. Then, name the [environment](https://www.aptible.com/docs/environments) your resources will be grouped into.
+    </Accordion>
+  </AccordionGroup>
   </Tab>
+  <Tab title="Deploy with GitPush">
+  </Tab>
+</Tabs>
 
-  <Tab title="Deploy via CLI">
-
+<Tabs>
+  <Tab title="Deploy via GitHub">
   <AccordionGroup>
    <Accordion title="Install the Aptible CLI">
-   import CLISnippet from '/snippets/CLI-snippet.mdx';
-   <CLISnippet />
+   Install the CLI
 </Accordion>
 
 <Accordion title="Create an app">
-```
-aptible apps:create HANDLE
-[environment=ENVIRONMENT]
+```python
+  aptible apps:create HANDLE
+
+  # Example: aptible apps:create rails-template
 ```
 </Accordion>
 </AccordionGroup>
+  </Tab>
+  <Tab title="Deploy via GitPush">
   </Tab>
 </Tabs>
 
@@ -76,4 +65,3 @@ aptible apps:create HANDLE
 <Card title="Deploy custom code" icon="books" iconType="duotone" href="">
 Read our guide for deploying custom code on Aptible.
 
-</Card>
