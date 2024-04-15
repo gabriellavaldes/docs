@@ -20,6 +20,10 @@
         "url": "https://app.aptible.com/login"
       }
     ],
+    "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
     "anchors": [
       {
         "name": "Support",
@@ -43,14 +47,7 @@
     "tabs": [
     {
         "name": "Guides",
-        "url": "guides",
-        "navigation":[
-          {"group": "All guides",
-          "pages":[
-          "quickstart"
-          ]
-}
-        ]
+        "url": "guides"
     }
 ],
     "navigation": [
@@ -70,7 +67,11 @@
               "databases"
               ]
 
-            }
+            },
+      {
+        "group": "All guides",
+        "pages": ["testing-guides"]
+      }
         ]
       }
     ],
@@ -78,10 +79,5 @@
       {
           "twitter": "https://twitter.com/aptible?lang=en",
           "linkedin": "https://www.linkedin.com/company/aptible/"
-      },
-"feedback": {
-  "thumbsRating":true, 
-  "suggestEdit":true,
-  "raiseIssue":true
-  }
+      }
   }
