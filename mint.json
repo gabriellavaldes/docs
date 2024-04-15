@@ -43,7 +43,7 @@
     "tabs": [
     {
         "name": "Guides",
-        "url": "/guides/",
+        "url": "guides",
         "navigation":[
           {"group": "All guides",
           "pages":[
