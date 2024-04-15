@@ -67,7 +67,10 @@
       },
       {
         "group": "All guides",
-        "pages": ["guides/testing-guides"]
+        "pages": [
+          "guides-overview",
+          "guides/testing-guides"
+        ]
       } 
     ],
     "footerSocials":
