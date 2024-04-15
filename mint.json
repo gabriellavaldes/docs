@@ -42,8 +42,15 @@
 },
     "tabs": [
     {
-        "name": "Guides & Knowledge Base",
-        "url": "/guides/"
+        "name": "Guides",
+        "url": "/guides/",
+        "navigation":[
+          {"group": "All guides",
+          "pages":[
+          "quickstart"
+          ]
+}
+        ]
     }
 ],
     "navigation": [
