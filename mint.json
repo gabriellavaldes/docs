@@ -62,5 +62,5 @@
           "twitter": "https://twitter.com/aptible?lang=en",
           "linkedin": "https://www.linkedin.com/company/aptible/"
       },
-"feedback": {true, "thumbsRating":true, "suggestEdit":true}
+"feedback": {"thumbsRating":true, "suggestEdit":true}
   }
