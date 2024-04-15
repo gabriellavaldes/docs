@@ -68,8 +68,7 @@
       {
         "group": "Guides",
         "pages": [
-          "guides-overvivew",
-          "testing-guides"
+          "/guides/guides-overvivew"
         ]
       } 
     ],
