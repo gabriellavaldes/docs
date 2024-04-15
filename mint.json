@@ -42,10 +42,6 @@
 },
     "tabs": [
     {
-        "name": "Documentation",
-        "url": "/docs/"
-    },
-    {
         "name": "Guides",
         "url": "/guides/"
     }
