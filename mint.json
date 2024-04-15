@@ -33,7 +33,8 @@
       },
      { "name":"Changelog",
      "icon": "newspaper",
-      "url": "https://www.aptible.com/changelog"
+      "url": "https://www.aptible.com/changelog",
+      "isDefaultHidden": true
      }
     ],
     "navigation": [
