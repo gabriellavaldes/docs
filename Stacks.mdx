@@ -1,0 +1,63 @@
+---
+title: Stacks
+---
+
+# Overview
+
+Stacks are fundamental to the network-level isolation of your resources. Each stack is hosted in a specific region and is comprised of [environments](core-concepts/architecture/environments).
+
+Aptible offers two types of stacks:  [shared stacks](core-concepts/architecture/stacks#shared-stacks) (non-isolated) and [dedicated stacks](core-concepts/architecture/stacks#dedicated-stacks) (isolated).
+
+Resources in different stacks can only connect with each other with a [network integration.](core-concepts/integrations/network-integrations) For example: databases and internal endpoints deployed in a given stack are not accessible from apps deployed in other stacks.'
+
+> 🧠 The underlying virtualized infrastructure (EC2 instances, private network, etc.), which provides network-level isolation of resources.
+
+# Shared Stacks (Non-Isolated)
+
+Stacks shared across many customers are called Shared Stacks. Use Shared Stacks for development, testing, and staging [Environments](core-concepts/architecture/environments).
+
+Note: you can not host sensitive or regulated data with shared stacks.
+
+# Dedicated Stacks (Isolated)
+
+> 🏳️ Dedicated Stacks are only available on the [Growth, Scale and Enterprise plans.](https://www.aptible.com/pricing)
+
+Dedicated stacks are built for production [environments](core-concepts/architecture/environments), are dedicated to a single customer, and provide four significant benefits:
+
+* **Tenancy** - Dedicated stacks are isolated from other Aptible customers, and you can also use multiple Dedicated Stacks to architect the [isolation](https://community.aptible.com/t/what-kinds-of-isolation-can-aptible-provide/496) you require within your organization.
+* **Availability** - Aptible's [Service Level Agreement](https://www.aptible.com/legal/service-level-agreement/) applies only to Environments hosted on a Dedicated stack.
+* **Regulatory** - Aptible will sign a HIPAA Business Associate Agreement (BAA) to cover information processing in Environments hosted on a Dedicated stack.
+* **Connectivity** - [Integrations](core-concepts/integrations/network-integrations), such as VPN and VPC Peering connections, are available only to Dedicated stacks.
+* **Security** - Dedicated stacks automatically come with a [suite of security features](https://www.aptible.com/secured-by-aptible), including encryption, DDoS protection, host hardening, [intrusion detection](core-concepts/security-compliance/hids), and [vulnerability scanning ](core-concepts/security-compliance/security-scans)— alleviating the need to worry about security best practices.
+
+## Supported Regions
+
+|Region| Available on Shared Stacks | Available on Dedicated Stacks |
+| ---- | -------------------------- | ----------------------------- |
+| us-east-1 / US East (N. Virginia) | ✔️ | ✔️ |
+| us-east-2 / US East (Ohio) |  | ✔️ |
+| us-west-1 / US West (N. California) | ✔️ | ✔️ |
+| us-west-2 / US West (Oregon) |  | ✔️ |
+| eu-central-1 / Europe (Frankfurt) | ✔️ | ✔️ |
+| sa-east-1 / South America (São Paulo) |  | ✔️ |
+| eu-west-1 / Europe (Ireland) |  | ✔️ |
+| eu-west-2 / Europe (London) |  | ✔️ |
+| eu-west-3 / Europe (Paris) |  | ✔️ |
+| ca-central-1 / Canada (Central) | ✔️ | ✔️ |
+| ap-south-1 / Asia Pacific (Mumbai) | ✔️ | ✔️ |
+| ap-southeast-2 / Asia Pacific (Sydney) | ✔️ | ✔️ |
+| ap-northeast-1 / Asia Pacific (Tokyo) |  | ✔️ |
+| ap-northeast-2 / Asia Pacific (Seoul) |  | ✔️ |
+| ap-southeast-1 / Asia Pacific (Singapore) |  | ✔️ |
+
+> 📘 A Stack's Region will affect the latency of customer connections based on proximity. For [VPC Peering](core-concepts/integrations/network-integrations), deploy the Aptible Stack in the same region as the AWS VPC for both latency and DNS concerns.
+
+***
+
+# Featured Guides
+<CardGroup cols={3}>
+  <Card title="How to create and deprovison dedicated stacks" icon="list-check" iconType="duotone" href="https://www.aptible.com/docs/create-dedicated-stack"> 
+  </Card>
+  
+</CardGroup>
+
