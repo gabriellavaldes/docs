@@ -23,7 +23,7 @@
     "feedback": {
     "thumbsRating": true,
     "suggestEdit": true
-  },
+    },
     "anchors": [
       {
         "name": "Support",
@@ -43,13 +43,13 @@
     ],
     "primaryTab": {
     "name": "Documentation"
-},
+    },
     "tabs": [
     {
         "name": "Guides",
         "url": "guides"
     }
-],
+    ],
     "navigation": [
       {
         "group": "Documentation",
@@ -61,19 +61,14 @@
             "integrations",
             "dashboard",
             "CLI",
-      { "group": "ABC",
-        "pages": [
             "apps",
-              "databases"
-              ]
-
-            },
+            "databases"
+        ] 
+      },
       {
         "group": "All guides",
         "pages": ["guides/testing-guides"]
-      }
-        ]
-      }
+      } 
     ],
     "footerSocials":
       {
