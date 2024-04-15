@@ -37,6 +37,16 @@
       "isDefaultHidden": true
      }
     ],
+    "tabs": [
+    {
+        "name": "Documentation",
+        "url": "/docs/"
+    },
+    {
+        "name": "Guides",
+        "url": "/guides/"
+    },
+],
     "navigation": [
       {
         "group": "Documentation",
