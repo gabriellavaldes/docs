@@ -37,6 +37,9 @@
       "isDefaultHidden": true
      }
     ],
+    "primaryTab": {
+    "name": "Documentation"
+},
     "tabs": [
     {
         "name": "Documentation",
@@ -45,7 +48,7 @@
     {
         "name": "Guides",
         "url": "/guides/"
-    },
+    }
 ],
     "navigation": [
       {
