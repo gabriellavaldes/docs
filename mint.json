@@ -66,9 +66,9 @@
         ] 
       },
       {
-        "group": "All guides",
+        "group": "Guides",
         "pages": [
-          "guides-overview",
+          "guides/guides-overvivew",
           "guides/testing-guides"
         ]
       } 
