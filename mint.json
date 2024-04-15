@@ -70,7 +70,7 @@
             },
       {
         "group": "All guides",
-        "pages": ["testing-guides"]
+        "pages": ["guides/testing-guides"]
       }
         ]
       }
