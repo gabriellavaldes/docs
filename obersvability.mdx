@@ -1,0 +1,47 @@
+---
+title: Logs
+sidebarTitle: Learn about how to access and retain logs from your Aptible resources 
+---
+
+# Overview
+Logs collect the output of your [Containers](core-concepts/architecture/containers/overview). 
+    
+> 🧠 Strictly speaking, `stdout` and `stderr` are captured. If you are using Docker locally, this is what you'd see when you run `docker logs ...`. Most importantly, this means **logs sent to files are not captured by Aptible logging**, so when you deploy your [Apps](core-concepts/apps/overview) on Aptible, you should ensure you are logging to `stdout` or `stderr`, and not to log files.
+
+# Activity Logs
+Aptible stores recent activity logs for quick access. 
+
+> 📘 For long term retention of logs, you will need to set up a [Log Drain]
+
+
+## Using the CLI
+
+App and Database logs can be accessed in real-time from the [CLI](reference/aptible-cli/overview) using the [`aptible logs`](reference/aptible-cli/cli-commands/cli-logs) command. Upon executing this command, only the logs generated from that moment onward will be displayed.
+
+Example:
+
+```
+aptible logs --app "$APP_HANDLE"
+aptible logs --database "$DATABASE_HANDLE"
+```
+
+## Using the the Aptible Dashboard
+![](/images/Logs-overview.png)
+Within the Aptible Dashboard, logs for recent operations can be acccessed by viewing recent [Activity](core-concepts/observability/activity).
+
+
+# Log Integrations
+
+## Log Drains
+Log Drains let you route Logs to logging destinations for reviewing, searching, and alerting. Log Drains support capturing logs for Apps, Databases, SSH sessions, and Endpoints. 
+
+<Card title="Learn more about Log Drains" icon="book" href="https://www.aptible.com/docs/log-drains">
+    
+</Card>
+
+## Log Archiving
+Log Archiving lets you route Logs to S3 for business continuity and compliance. Log Archiving supports capturing logs for Apps, Databases, SSH sessions, and Endpoints. 
+
+<Card title="Learn more about Log Archiving" icon="book" href="https://www.aptible.com/docs/s3-log-archives">
+    
+</Card>
