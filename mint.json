@@ -20,10 +20,6 @@
         "url": "https://app.aptible.com/login"
       }
     ],
-    "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true
-    },
     "anchors": [
       {
         "name": "Support",
@@ -33,13 +29,14 @@
       {
         "name": "Trust Center",
         "icon": "lock",
-        "url": "https:/trust.aptible.com"
+        "url": "https://trust.aptible.com/"
       },
-     { "name":"Changelog",
-     "icon": "newspaper",
-      "url": "https://www.aptible.com/changelog",
-      "isDefaultHidden": true
-     }
+      {
+        "name": "Changelog",
+        "icon": "newspaper",
+        "url": "https://www.aptible.com/changelog",
+        "isDefaultHidden": true
+      }
     ],
     "primaryTab": {
     "name": "Documentation"
@@ -47,31 +44,31 @@
     "tabs": [
     {
         "name": "Guides",
-        "url": "guides"
+        "url": "how-to-guides"
     }
     ],
-    "navigation": [
-      {
-        "group": "Documentation",
-        "pages": [
-            "home",
-            "intro-to-aptible",
-            "custom-code-quickstart",
-            "ruby-quickstart",
-            "integrations",
-            "dashboard",
-            "CLI",
-            "apps",
-            "databases"
-        ] 
-      },
-      {
-        "group": "Guides",
-        "pages": [
-          "/guides/guides-overvivew"
-        ]
-      } 
-    ],
+  "navigation": [
+        {
+          "group": "Documentation",
+          "pages": [
+              "home",
+              "intro-to-aptible",
+              "custom-code-quickstart",
+              "ruby-quickstart",
+              "integrations",
+              "dashboard",
+              "CLI",
+              "apps",
+              "databases"
+          ] 
+        },
+        {
+          "group": "Guides",
+          "pages": [
+            "/guides/guides-overvivew"
+          ]
+        } 
+      ],
     "footerSocials":
       {
           "twitter": "https://twitter.com/aptible?lang=en",
