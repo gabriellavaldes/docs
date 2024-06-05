@@ -44,7 +44,8 @@
     "tabs": [
     {
         "name": "Guides",
-        "url": "how-to-guides"
+        "url": "how-to-guides",
+         "isDefaultHidden": true
     }
     ],
   "navigation": [
