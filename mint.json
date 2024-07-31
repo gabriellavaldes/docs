@@ -52,10 +52,15 @@
         {
           "group": "Documentation",
           "pages": [
-              "wwww-home",
-              "wwww-apps",
-              "wwww-databases",
-              "wwww-security-compliance"
+              "home",
+              "intro-to-aptible",
+              "custom-code-quickstart",
+              "ruby-quickstart",
+              "integrations",
+              "dashboard",
+              "CLI",
+              "apps",
+              "databases"
           ] 
         },
         {
