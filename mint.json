@@ -32,10 +32,10 @@
         "url": "https://trust.aptible.com/"
       },
       {
-        "name": "Changelog",
+        "name": "`NEW` Changelog",
         "icon": "newspaper",
         "url": "https://www.aptible.com/changelog",
-        "isDefaultHidden": true
+      
       }
     ],
     "primaryTab": {
