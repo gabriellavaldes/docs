@@ -7,9 +7,13 @@
     "theme":"prism",
     "favicon": "/favicon.svg",
     "colors": {
-      "primary": "#98256A",
-      "light": "#A8397C",
-      "dark": "#98256A"
+      "primary": "#E09600",
+      "light": "#ffb607",
+      "dark": "#E09600"
+    },
+    "background": "gradient",
+    "search":{
+      "prompt": "Search or ask AI"
     },
     "topbarCtaButton": {
       "name": "Sign up",
