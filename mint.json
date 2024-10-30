@@ -4,7 +4,7 @@
       "light": "/logo/light.png",
       "dark": "/logo/dark.png"
     },
-    "theme":"quill",
+    "theme":"venus",
     "favicon": "/favicon.svg",
     "colors": {
       "primary": "#98256A",
