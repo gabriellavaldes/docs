@@ -11,7 +11,9 @@
       "light": "#ffb607",
       "dark": "#E09600"
     },
-    "background": "gradient",
+    "background":{
+      "style": "gradient"
+    },
     "search":{
       "prompt": "Search or ask AI"
     },
