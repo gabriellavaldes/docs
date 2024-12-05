@@ -1,107 +1,146 @@
 ---
-title: Integrations and Tools
-description: "Integrate Aptible with the tools you love"
+title: All Integrations and Tools
+description: "Explore all integrations and tools used with Aptible"
 ---
 
 ## Cloud Hosting
-Deploy apps and databases to **Aptible's secure cloud** or **integrate with existing cloud** providers to standardize infrastructure.
 
-import CloudsSnippet from '/snippets/clouds-snippet.mdx';
+Deploy apps and databases to **Aptible's secure cloud** or **integrate with existing cloud** providers to standardize infrastructure.
 
 <CloudsSnippet />
 
-
 ## Managed Databases
-Aptible offers a robust selection of fully [Managed Databases](/docs/databases) automate provisioning, maintenance, and scaling.
 
-import DatabasesSnippet from '/snippets/databases-snippet.mdx';
+Aptible offers a robust selection of fully [Managed Databases](https://www.aptible.com/docs/databases) automate provisioning, maintenance, and scaling.
 
 <DatabasesSnippet />
 
 ## Observability
 
-<CardGroup cols={3}>
-  <Card title="Amazon S3" icon="file-import" href="https://www.aptible.com/docs/s3-log-archives">
-  Archive Aptible logs to S3 for historical retention
+### Logging
+
+<CardGroup cols={4}>
+  <Card title="Amazon S3" icon="aws" href="https://www.aptible.com/docs/s3-log-archives">
+    Archive Aptible logs to S3 for historical retention
   </Card>
-  <Card title="Datadog" icon="file-import" href="https://www.aptible.com/docs/datadog">
-Send Aptible logs and metrics to Datadog or setup Datadog APM
+
+  <Card title="Datadog" href="https://www.aptible.com/docs/datadog" img="/images/Datadog.png">
+    Send Aptible logs to Datadog
   </Card>
-   <Card title="Custom - HTTPS" icon="file-import" href="https://www.aptible.com/docs/https-log-drains">
-Send Aptible logs to any destination of your choice via HTTPS
+
+  <Card title="Custom - HTTPS" href="https://www.aptible.com/docs/https-log-drains" img="/images/HTTPS.png">
+    Send Aptible logs to any destination of your choice via HTTPS
   </Card>
-   <Card title="Custom - Syslog" icon="file-import" href="https://www.aptible.com/docs/syslog-log-drains">
-   Send Aptible logs to any destination of your choice with Syslog
+
+  <Card title="Custom - Syslog" href="https://www.aptible.com/docs/syslog-log-drains" img="/images/Syslog.png">
+    Send Aptible logs to any destination of your choice with Syslog
   </Card>
-  <Card title="Elasticsearch" icon="file-import"  href="https://www.aptible.com/docs/elasticsearch-log-drains" >
-Send logs to Elasticsearch on Aptible or in the cloud
+
+  <Card title="Elasticsearch" href="https://www.aptible.com/docs/elasticsearch-log-drains" img="/images/Elasticsearch.png">
+    Send logs to Elasticsearch on Aptible or in the cloud
   </Card>
-  <Card title="Fivetran" icon="file-import" href="https://www.aptible.com/docs/connect-to-fivetran">
-Send Aptible database logs to Fivetran
+
+  <Card title="Fivetran" href="https://www.aptible.com/docs/connect-to-fivetran" img="/images/Fivetran.png">
+    Send Aptible database logs to Fivetran
   </Card>
-  <Card title="Logentries" icon="file-import" >
-  Send Aptible logs to Logentries
+
+  <Card title="Logentries" img="/images/Logentries.png">
+    Send Aptible logs to Logentries
   </Card>
-  <Card title="Mezmo" icon="file-import" href="https://www.aptible.com/docs/mezmo">
-  Send Aptible logs to Mezmo (Formerly LogDNA)
+
+  <Card title="Mezmo" href="https://www.aptible.com/docs/mezmo" img="/images/Mezmo.png">
+    Send Aptible logs to Mezmo (Formerly LogDNA)
   </Card>
-  <Card title="Logstash" icon="file-import" >
-  Send Aptible logs to Logstash
+
+  <Card title="Logstash" img="/images/Logstash.png">
+    Send Aptible logs to Logstash
   </Card>
-  <Card title="Papertrail" icon="file-import" href="https://www.aptible.com/docs/papertrail">
-  Send Aptible logs to Papertrail
+
+  <Card title="Papertrail" href="https://www.aptible.com/docs/papertrail" img="/images/Papertrail.png">
+    Send Aptible logs to Papertrail
   </Card>
-  <Card title="Sumo Logic" icon="file-import" href="https://www.aptible.com/docs/sumo-logic">
-  Send Aptible logs to Sumo Logic
+
+  <Card title="Sumo Logic" href="https://www.aptible.com/docs/sumo-logic" img="/images/Sumologic.png">
+    Send Aptible logs to Sumo Logic
   </Card>
-<Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" >
-  </Card>
+
+  <Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" />
 </CardGroup>
 
-## Developer tools
-<CardGroup cols={3}>
-<Card title="Aptible CLI" icon="terminal" href="https://www.aptible.com/docs/cli">
-Manage your Aptible resources via the Aptible CLI
-</Card>
-  <Card title="Custom CI/CD" icon="code-merge">
-  Deploy to Aptible using a CI/CD tool of your choice
+### Metrics
+
+<CardGroup cols={4}>
+  <Card title="Datadog" href="https://www.aptible.com/docs/datadog" img="/images/Datadog.png">
+    Send Aptible container metrics to Datadog or setup Datadog APM
   </Card>
-  <Card title="Circle CI" icon="code-merge" >
-  Deploy to Aptible using Circle CI.
+
+  <Card title="InfluxDB" href="https://www.aptible.com/docs/core-concepts/observability/metrics/metrics-drains/influxdb-metric-drain" img="/images/InfluxDB.png">
+    Send Aptible container metrics to an InfluxDB
   </Card>
-  <Card title="GitHub Actions" icon="code-merge" >
-  Deploy to Aptible using GitHub Actions.
+
+  <Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" />
+</CardGroup>
+
+## Developer Tools
+
+<CardGroup cols={4}>
+  <Card title="Aptible CLI" href="https://www.aptible.com/docs/cli">
+    Manage your Aptible resources via the Aptible CLI
   </Card>
-  <Card title="Terraform" icon="code-compare"  href="https://www.aptible.com/docs/terraform">
-  Manage your Aptible resources programmatically via Terraform
-</Card>
-<Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" >
+
+  <Card title="Custom CI/CD" icon="globe">
+    Deploy to Aptible using a CI/CD tool of your choice
   </Card>
+
+  <Card title="Circle CI" img="/images/CircleCI.png">
+    Deploy to Aptible using Circle CI.
+  </Card>
+
+  <Card title="GitHub Actions" icon="github">
+    Deploy to Aptible using GitHub Actions.
+  </Card>
+
+  <Card title="Terraform" href="https://www.aptible.com/docs/terraform" img="/images/Terraform.png">
+    Manage your Aptible resources programmatically via Terraform
+  </Card>
+
+  <Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" />
 </CardGroup>
 
 ## Network & Security
 
-<CardGroup cols={3}>
-<Card title="Entitle" icon="lock" href="https://www.aptible.com/docs/entitle">
-Automate just-in-time access to Aptible resources
+<CardGroup cols={4}>
+  <Card title="Entitle" href="https://www.aptible.com/docs/entitle" img="/images/Entitle.png">
+    Automate just-in-time access to Aptible resources
   </Card>
-  <Card title="Google Workplace SAML" icon="lock" href="https://www.aptible.com/docs/sso-setup">
-Set up SSO with Google Workplace SAML
+
+  <Card title="Google SSO" icon="google" href="https://www.aptible.com/docs/core-concepts/security-compliance/authentication/sso">
+    Configure SSO with Okta
   </Card>
-  <Card title="Okta SAML" icon="lock" href="https://www.aptible.com/docs/sso-setup#okta-walkthrough">
-     Set up SSO with Okta
+
+  <Card title="Okta" href="https://www.aptible.com/docs/core-concepts/security-compliance/authentication/sso" img="/images/Okta.png">
+    Configure SSO with Okta
   </Card>
-<Card title="Site-to-site VPNs " icon="lock" href="https://www.aptible.com/docs/network-integrations">
-Connect to your Aptible resources with site-to-site VPNs
-</Card>
- <Card title="Twingate" icon="lock" href="https://www.aptible.com/docs/twingate">
-  Connect to your Aptible resources with a VPN alternative
+
+  <Card title="Single Sign-On (SAML)" href="https://www.aptible.com/docs/core-concepts/security-compliance/authentication/sso" img="/images/SSO_SCIM.png">
+    Configure SSO with Popular Identity Providers
   </Card>
-  <Card title="VPC Peering" icon="lock" href="https://www.aptible.com/docs/network-integrations">
-Connect your external resources to Aptible resources with VPC Peering.
+
+  <Card title="SCIM (Provisioning)" href="https://www.aptible.com/docs/core-concepts/security-compliance/authentication/scim" img="/images/SSO_SCIM.png">
+    Configure SCIM with Popular Identity Providers
   </Card>
-<Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" >
+
+  <Card title="Site-to-site VPNs " href="https://www.aptible.com/docs/network-integrations" img="/images/VPNs.png">
+    Connect to your Aptible resources with site-to-site VPNs
   </Card>
+
+  <Card title="Twingate" href="https://www.aptible.com/docs/twingate" img="/images/Twingate.png">
+    Connect to your Aptible resources with a VPN alternative
+  </Card>
+
+  <Card title="VPC Peering" icon="globe" href="https://www.aptible.com/docs/network-integrations">
+    Connect your external resources to Aptible resources with VPC Peering.
+  </Card>
+
+  <Card title="Request new integration" icon="plus" href="https://portal.productboard.com/aptible/2-aptible-roadmap-portal/tabs/5-ideas/submit-idea" />
 </CardGroup>
-
-
